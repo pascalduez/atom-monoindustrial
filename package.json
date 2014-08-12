@@ -1,7 +1,7 @@
 {
   "name": "atom-monoindustrial",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Monoindustrial theme for Atom.",
   "homepage": "https://github.com/pascalduez/atom-monoindustrial",
   "bugs": "https://github.com/pascalduez/atom-monoindustrial/issues",
