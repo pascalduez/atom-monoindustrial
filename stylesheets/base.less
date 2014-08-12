@@ -1,0 +1,194 @@
+@import "syntax-variables";
+
+.editor {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+.editor .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+.editor .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+.editor .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+.editor .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+.editor .search-results .marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+.editor .search-results .marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+.editor.is-focused .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+.editor.is-focused .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
+  background-color: rgba(12, 13, 12, 0.25);
+}
+
+.comment {
+  color: #666C68;
+  background-color: #151C19;
+}
+
+.storage, .support.type {
+  color: #C23B00;
+}
+
+.string.unquoted.embedded, .text .source, .string.unquoted {
+  color: #FFFFFF;
+  background-color: #151C19;
+}
+
+.constant.character.escaped, .string .source:not(.string.unquoted.embedded), .string .string .source {
+  color: rgba(233, 71, 0, 0);
+  background-color: #1A0700;
+}
+
+.string {
+  color: #C23800;
+  background-color: #1A0700;
+}
+
+.constant.numeric {
+  color: #E98800;
+}
+
+.variable.language, .variable.other {
+  color: #648BD2;
+}
+
+.constant {
+  color: #E98800;
+}
+
+.other.preprocessor {
+  color: #A8B3AB;
+  background-color: #161D1A;
+}
+
+.entity.name.preprocessor {
+  color: #A8B3AB;
+  background-color: #161D1A;
+}
+
+.entity.name.function, .keyword.operator, .keyword.other.name-of-parameter {
+  color: #A8B3AB;
+}
+
+.entity.name.class {
+  color: #9A2F00;
+}
+
+.variable.parameter {
+  color: #648BD2;
+}
+
+.storage.type.method {
+  color: #666C68;
+}
+
+.keyword, .storage.type.function.php {
+  color: #A39E64;
+}
+
+.invalid {
+  color: #FFFFFF;
+  background-color: rgba(153, 0, 0, 0.68);
+}
+
+.invalid.trailing-whitespace {
+  color: #000000;
+  background-color: #FFD0D0;
+}
+
+.support.function {
+  color: #588E60;
+}
+
+.support.class, .support.type, .entity.name {
+  color: #5778B6;
+}
+
+.support.constant {
+  color: #C87500;
+}
+
+.support.other.variable {
+  color: #5879B7;
+}
+
+.declaration.xml-processing {
+  color: #68685B;
+}
+
+.declaration.doctype {
+  color: #888888;
+}
+
+.declaration.doctype.DTD {
+  color: #888888;
+}
+
+.declaration.tag {
+  color: #A65EFF;
+}
+
+.entity.name.tag {
+  color: #A65EFF;
+}
+
+.entity.other.attribute-name {
+  color: #909993;
+}
+
+.punctuation {
+  color: rgba(144, 153, 147, 0.5);
+}
+
+.entity.other.inherited-class {
+  color: #7642B7;
+}
+
+.meta.scope.changed-files.svn, .markup.inserted.svn, .markup.changed.svn, .markup.deleted.svn {
+  color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.meta.section {
+  background-color: rgba(120, 128, 123, 0.04);
+}
+
+.meta.section .meta.section {
+  background-color: rgba(120, 128, 123, 0.04);
+}
+
+.meta.section .meta.section .meta.section {
+  background-color: rgba(120, 128, 123, 0.04);
+}
